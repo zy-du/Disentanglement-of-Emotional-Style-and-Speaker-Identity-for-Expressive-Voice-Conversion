@@ -1,0 +1,16 @@
+defaults:
+    - model: default
+
+checkpoint: /home/eng/z/zxd220002/Open_source/StyleVC/checkpoint/model.ckpt-500.pt
+src_spks: 0013,0016
+trg_spks: 0011,0018
+
+mode: M-M,F-F
+stat_path: path/to/f0_mean/and/f0_std
+data_path: path/to/Dataset
+trg_path: path/to/Dataset
+out_path: path/to/samples
+emotion: Angry
+mel_state_path: path/to/mel_stats.npy
+
+vocoder_path: path/to/vocoder/checkpoint-1000000steps.pkl
