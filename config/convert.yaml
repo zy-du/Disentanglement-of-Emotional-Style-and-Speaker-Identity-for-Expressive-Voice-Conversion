@@ -1,7 +1,7 @@
 defaults:
     - model: default
 
-checkpoint: /home/eng/z/zxd220002/Open_source/StyleVC/checkpoint/model.ckpt-500.pt
+checkpoint: ./checkpoint/model.ckpt-500.pt
 src_spks: 0013,0016
 trg_spks: 0011,0018
 
